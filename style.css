@@ -12,8 +12,35 @@
   border: none;
 }
 
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+
+main {
+  background-color: hsl(216, 50%, 16%);
+  width: 335px;
+}
+
 p {
   font-size: 18px;
+  color: var(--theme-softblue);
+}
+
+h1 {
+  font-size: 24px;
+  color: white;
+}
+
+strong {
+  color: white;
+}
+
+.price {
+  color: var(--theme-cyan);
+}
+
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
 }
 
 .attribution {
