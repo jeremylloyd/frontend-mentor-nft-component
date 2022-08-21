@@ -1,0 +1,26 @@
+:root {
+  --theme-softblue: hsl(215, 51%, 70%);
+  --theme-cyan: hsl(178, 100%, 50%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Outfit';
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  border: none;
+}
+
+p {
+  font-size: 18px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
