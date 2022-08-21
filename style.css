@@ -18,11 +18,26 @@ body {
 
 main {
   background-color: hsl(216, 50%, 16%);
-  width: 335px;
+  width: 350px;
+  height: 600px;
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.crypto-image {
+  border-radius: 10px;
 }
 
 p {
   font-size: 18px;
+  color: var(--theme-softblue);
+}
+
+span {
   color: var(--theme-softblue);
 }
 
@@ -35,6 +50,12 @@ strong {
   color: white;
 }
 
+.price-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .price {
   color: var(--theme-cyan);
 }
@@ -43,9 +64,22 @@ hr {
   border: 1px solid hsl(215, 32%, 27%);
 }
 
+.author {
+  display: flex;
+  align-items: center;
+}
+
+.author img {
+  width: 30px;
+  border: solid 1px white;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: var(--theme-softblue);
 }
 
 .attribution a {
