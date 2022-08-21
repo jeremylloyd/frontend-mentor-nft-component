@@ -21,11 +21,12 @@ main {
   width: 350px;
   height: 600px;
   padding: 25px;
-  margin: 25px auto;
+  margin: 25px auto 100px auto;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0px 20px 0 15px hsl(216, 58%, 10%), 0px 20px 0 40px hsl(216, 58%, 10%, 40%);
 }
 
 .crypto-image {
